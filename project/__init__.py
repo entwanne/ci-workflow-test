@@ -1,5 +1,2 @@
-import os
-
-
-def main( arg: int = None ) -> None:
-    return 0
+def main(arg: int | None = None) -> int | None:
+    return arg

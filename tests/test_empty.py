@@ -4,4 +4,6 @@ def test_empty():
 
 def test_main():
     from project import main
+
     assert main() is None
+    assert main(0) == 0
