@@ -15,7 +15,7 @@ jobs:
     steps:
     - id: python-versions
       run: |
-        echo 'python-versions=["3.10", "3.11", "3.12", "3.13"]' >> "$GITHUB_OUTPUT"
+        echo 'python-versions=["3.12", "3.13"]' >> "$GITHUB_OUTPUT"
 
   format:
     runs-on: ubuntu-latest

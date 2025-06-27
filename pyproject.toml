@@ -15,3 +15,9 @@ dev = [
     "ruff",
     "mypy",
 ]
+
+[tool.setuptools]
+packages = ["project"]
+
+[tool.ruff]
+line-length = 110
